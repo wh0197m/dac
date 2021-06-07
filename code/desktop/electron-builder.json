@@ -11,30 +11,27 @@
   ],
   "extraResources": [
     {
-      "from": "dist",
-      "to": "dist",
+      "from": "resources",
+      "to": "resources",
       "filter": [
         "**/*"
       ]
     }
   ],
   "win": {
-    "icon": "dist/assets/icons",
+    "icon": "icons/icon.ico",
     "target": [
       "portable"
     ]
   },
-  "portable": {
-    "splashImage": "dist/assets/icons/electron.bmp"
-  },
   "mac": {
-    "icon": "dist/assets/icons",
+    "icon": "icons/icon.icns",
     "target": [
       "dmg"
     ]
   },
   "linux": {
-    "icon": "dist/assets/icons",
+    "icon": "icons/icon.png",
     "target": [
       "AppImage"
     ]

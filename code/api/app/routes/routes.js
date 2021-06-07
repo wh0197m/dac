@@ -1,7 +1,7 @@
 module.exports = app => {
   const ctl = require("../controllers/controller.js");
 
-  var router = require("express").Router();
+  const router = require("express").Router();
 
   router.post("/config", ctl.configuration);
 

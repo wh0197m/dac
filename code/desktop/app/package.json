@@ -1,9 +1,11 @@
 {
-  "name": "angular-electron",
-  "version": "10.0.0",
+  "name": "dac",
+  "version": "0.1.1",
   "main": "main.js",
   "private": true,
   "dependencies": {
-    "@electron/remote": "1.0.4"
+    "@electron/remote": "1.0.4",
+    "express": "^4.17.1",
+    "nocodb": "^0.9.18"
   }
 }

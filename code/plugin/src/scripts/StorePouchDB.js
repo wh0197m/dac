@@ -8,7 +8,7 @@ class StoreScrapeResultWriter {
 	constructor(db) {
 		this.db = db;
 		this.axiosInstance = axios.create({
-			baseURL: 'http://localhost:8080/api',
+			baseURL: 'http://localhost:9090/api',
 		});
 		this.axiosInstance.defaults.headers.post['Content-Type'] = 'application/json';
 		this.axiosInstance.interceptors.response.use(response => {
@@ -45,7 +45,7 @@ export default class StorePouchDB {
 		// configure couchdb
 		this.sitemapDb = new PouchDB(this.config.sitemapDb);
 		this.axiosInstance = axios.create({
-			baseURL: 'http://localhost:8080/api',
+			baseURL: 'http://localhost:9090/api',
 		});
 		this.axiosInstance.defaults.headers.post['Content-Type'] = 'application/json';
 		this.axiosInstance.interceptors.response.use(response => {

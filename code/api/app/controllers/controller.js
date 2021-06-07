@@ -13,7 +13,6 @@ exports.configuration = (req, res) => {
 
   const d = req.body;
   dbUrl = `postgres://${d.username}:${d.passwd}@${d.host}:${d.port}/${d.dbname}`;
-  console.log(`---------------------------${dbUrl}-----------------------------`);
 }
 
 exports.sync = async (req, res) => {
@@ -57,9 +56,6 @@ exports.sync = async (req, res) => {
   const createTable = `CREATE TABLE ${table} (${sentence});`
   const insertTable = `INSERT INTO ${table}(${columns}) VALUES ${values};`
 
-    console.log(`---------------------------${createTable}-----------------------------`);
-    console.log(`---------------------------${insertTable}-----------------------------`);
-
   const client = new Client({
       connectionString: dbUrl
   })
@@ -69,12 +65,9 @@ exports.sync = async (req, res) => {
   await client.query(
       createTable,
       (err, result) => {
-          console.log(`---------------------------end create-----------------------------`);
         if (err) {
-          console.log(err);
           res.status(200).send('db create failed');
         }
-        console.log(result);
         res.status(200).send('ok')
       }
   )
@@ -83,12 +76,9 @@ exports.sync = async (req, res) => {
         insertTable,
         (err, result) => {
             client.end();
-            console.log(`---------------------------end insert-----------------------------`);
             if (err) {
-                console.log(err);
                 res.status(200).send('db update failed');
             }
-            console.log(result);
             res.status(200).send('ok')
         }
     )
