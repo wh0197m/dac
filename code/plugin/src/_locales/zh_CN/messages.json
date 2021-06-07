@@ -1,0 +1,311 @@
+{
+  "data_preview": { "message": "数据预览" },
+  "sitemaps_nav_button": { "message": "SiteMap" },
+  "sitemap_nav_button": { "message": "SiteMap" },
+  "sitemap_selector_list_nav_button": { "message": "选择器" },
+  "sitemap_selector_graph_nav_button": { "message": "元素树状图" },
+  "sitemap_edit_metadata_nav_button": { "message": "编辑元数据" },
+  "sitemap_scrape_nav_button": { "message": "爬取" },
+  "sitemap_browse_nav_button": { "message": "浏览数据" },
+  "sitemap_export_nav_button": { "message": "导出SiteMap" },
+  "sitemap_export_data_nav_button": { "message": "导出数据" },
+  "create_sitemap_nav_button": { "message": "创建SiteMap" },
+  "create_sitemap_create_nav_button": { "message": "创建SiteMap" },
+  "create_sitemap_import_nav_button": { "message": "导入SiteMap" },
+  "sitemaplist_id": { "message": "ID" },
+  "sitemaplist_starturl": { "message": "根URLs" },
+  "sitemaplist_actions": { "message": "动作" },
+  "browse_sitemap_data": { "message": "浏览数据" },
+  "delete_sitemap": { "message": "删除" },
+  "sitemap_export_download_button": { "message": "下载SiteMap(JSON文件)" },
+  "sitemap_import_submit_button": { "message": "开始导入" },
+  "sitemap_import_rename_field": { "message": "重命名SiteMap(可选)" },
+  "sitemap_import_input_button": { "message": "导入SiteMap(JSON文件)" },
+  "sitemap_import_JSON_field": { "message": "SiteMap(JSON格式)" },
+  "sitemap_import_hints": {
+    "message": "<p><strong style=\"color:red;\">注意</strong>: 不支持当前导入的SiteMap文件.\n\t\t\t<br />\n\t\t\t SiteMap格式样例: { \"_id\": \"<sitemap id>\", \"startUrls\": [\"<start URL>\"], \"selectors\": [ ... ], \"model\": [ ... ] } \n\t\t\t</p>"
+  },
+  "data_export_format": { "message": "导出到" },
+  "data_export_delimiter_field": { "message": "字段分隔符" },
+  "data_export_newline_checker": { "message": "结尾换行" },
+  "data_export_utf_bom_checker": { "message": "包含BOM的UTF-8(建议不勾选)" },
+  "data_export_data_sync_to_memfiredb": { "message": "同步到数据库" },
+  "data_export_generate_file_button": { "message": "生成文件" },
+  "data_export_waiting": { "message": "请稍等，马上生成文件" },
+  "data_export_download_file_button": { "message": "下载" },
+  "data_export_empty_delimiter": { "message": "CSV的字段分隔符不可以为空" },
+  "selectorListItem_element_preview": { "message": "预览Element" },
+  "selectorListItem_data_preview": { "message": "预览数据" },
+  "selectorListItem_edit": { "message": "编辑" },
+  "selectorListItem_delete": { "message": "删除" },
+  "selectorList_id": { "message": "ID" },
+  "selectorList_selector": { "message": "选择器" },
+  "selectorList_type": { "message": "类型" },
+  "selectorList_multiple": { "message": "是否爬取多个匹配值" },
+  "selectorList_parent_selector": { "message": "父级选择器" },
+  "selectorList_actions": { "message": "动作" },
+  "selectorList_add_selector_button": { "message": "添加新选择器" },
+  "selector_edit_id_field": { "message": "ID" },
+  "selector_edit_type_placeholder": { "message": "类型" },
+  "selector_edit_selector_css_field": { "message": "选择器" },
+  "selector_edit_data_preview_button": { "message": "预览数据" },
+  "selector_edit_scroll_selector": { "message": "页面滚动到选择器" },
+  "selector_edit_scroll_selector_placeholder": { "message": "为空 = 滚动到页面底部" },
+  "selector_edit_click_selector": { "message": "点击选择器" },
+  "selector_edit_select_button": { "message": "选择" },
+  "selector_edit_element_preview_button": { "message": "预览元素" },
+  "selector_edit_refresh_button": { "message": "刷新" },
+  "selector_edit_data_rows_selector": { "message": "Data rows selector" },
+  "selector_edit_select": { "message": "选择" },
+  "selector_edit_element_preview": { "message": "预览元素" },
+  "selector_edit_missing_columns_checker": { "message": "Extract missing columns" },
+  "selector_edit_vertical_table_checker": { "message": "This is vertical table" },
+  "selector_edit_click_type": { "message": "点击类型" },
+  "selector_edit_clickOnce": { "message": "点击一次 (分页, Tabs)" },
+  "selector_edit_clickMore": {
+    "message": "点击获取更多 (点击获取更多元素. 当没有发现具有唯一文本内容的新元素时停止.)"
+  },
+  "selector_edit_pagination_limit": { "message": "分页限制" },
+  "selector_edit_click_element_uniqueness": { "message": "点击具有唯一性的元素" },
+  "selector_edit_unique_text": { "message": "唯一Text" },
+  "selector_edit_unique_html_and_text": { "message": "唯一HTML+Text" },
+  "selector_edit_unique_html": { "message": "唯一HTML" },
+  "selector_edit_unique_css_selector": { "message": "唯一CSS选择器" },
+  "selector_edit_multiple": { "message": "是否爬取多个匹配值" },
+  "selector_edit_discard_elements": { "message": "忽略元素" },
+  "selector_edit_discardInitialElements": {
+    "message": "忽略点击前可用的初始元素"
+  },
+  "selector_edit_download_file": { "message": "以文件形式下载" },
+  "selector_edit_attribute_name": { "message": "属性名称" },
+  "selector_edit_value": { "message": "值" },
+  "selector_edit_style_name": { "message": "样式名称" },
+  "selector_edit_string_manipulation": { "message": "字符串操作" },
+  "selector_edit_regex_match": { "message": "正则匹配:" },
+  "selector_edit_regex_group": { "message": "正则组:" },
+  "selector_edit_trim_applying": { "message": "正则匹配前Trim." },
+  "selector_edit_remove_html": { "message": "删除HTML " },
+  "selector_edit_trim_text": { "message": "Trim文本" },
+  "selector_edit_replace_text": { "message": "匹配文本:" },
+  "selector_edit_replacement_text": { "message": "替代文本:" },
+  "selector_edit_text_prefix": { "message": "文本前缀:" },
+  "selector_edit_text_suffix": { "message": "文本后缀:" },
+  "selector_edit_delay": { "message": "延时 (ms)" },
+  "selector_edit_replace": { "message": "替换" },
+  "selector_edit_parent_selector": { "message": "父级选择器" },
+  "selector_edit_table_columns": { "message": "表格Column" },
+  "selector_edit_column": { "message": "Column" },
+  "selector_edit_result_key": { "message": "结果key" },
+  "selector_edit_include_into_result": { "message": "包含在结果中" },
+  "selector_edit_save_selector": { "message": "保存选择器" },
+  "selector_edit_cancel": { "message": "取消" },
+  "selector_edit_type_of_html": { "message": "HTML类型" },
+  "selector_edit_type_of_html_outer": { "message": "外层HTML" },
+  "selector_edit_type_of_html_inner": { "message": "内层HTML" },
+  "selector_edit_merge_into_list": { "message": "将收集到的项目合并成列表" },
+  "sitemap_scrape_config_request_interval_label": { "message": "请求间隔 (ms)" },
+  "sitemap_scrape_config_request_interval_randomness_label": {
+    "message": "随机请求间隔 (ms)"
+  },
+  "sitemap_scrape_config_page_load_delay": { "message": "页面加载延迟 (ms)" },
+  "sitemap_scrape_config_submit_scraping": { "message": "开始爬取" },
+  "sitemap_scrape_config_alert_success": {
+    "message": "正在爬取,关闭弹窗可停止爬取。<br/> 当爬取完成后，你可以浏览数据或将其导出为CSV或JSON"
+  },
+  "sitemap_edit_metadata_submit_model": { "message": "保存SiteMap" },
+  "sitemap_edit_metadata_edit_sitemap_id": { "message": "SiteMap名好处呢个" },
+  "sitemap_edit_metadata_start_url": { "message": "根URLs" },
+  "sitemap_edit_metadata_sitemap_model": { "message": "SiteMapModel" },
+  "sitemap_edit_metadata_sitemap_name_placeholder": { "message": "SiteMap名称" },
+  "sitemap_edit_metadata_url_list_placeholder": { "message": "URL列表" },
+  "sitemap_create_id": { "message": "SiteMap名称" },
+  "sitemap_create_start_url_block_label": { "message": "根URLs" },
+  "sitemap_create_sitemap_model": { "message": "SiteMapModel" },
+  "sitemap_create_submit_create_sitemap": { "message": "创建SiteMap" },
+
+  "url_patterns_hints": {
+    "message": "<div class=\"col_lg_10 col_lg_offset_1\">\n\t\t\t支持的URL模式:<br />\n\t\t\t1. <b>Numeric</b>可选步长或为0, [<i>START</i>_<i>END</i>:<i>STEP</i>] – [001_010:10]<br />\n\t\t\t2. <b>Date 间隔</b>, [date&lt;<i>PATTERN</i>&gt;&lt;<i>START</i>&gt;&lt;<i>END</i>&gt;] – [date&lt;dd.MM.yyyy&gt;&lt;01.01.2017&gt;&lt;now&gt;]<br />\n\t\t\t<ul>\n\t\t\t\tdate占位符\n\t\t\t\t<b>yesterday</b>\n\t\t\t\t/\n\t\t\t\t<b>now</b>\n\t\t\t\t/\n\t\t\t\t<b>tomorrow</b\n\t\t\t\t><br />\n\t\t\t\t其他模板组件(Java风格)\n\t\t\t\t<ul>\n\t\t\t\t\t<table border=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>yyyy</td>\n\t\t\t\t\t\t\t\t<td>full year (4 digits)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>yy</td>\n\t\t\t\t\t\t\t\t<td>last 2 digits of year</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>MMM &emsp;</td>\n\t\t\t\t\t\t\t\t<td>Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>MM</td>\n\t\t\t\t\t\t\t\t<td>month number (01_12)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>dd</td>\n\t\t\t\t\t\t\t\t<td>day of month</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</ul>\n\t\t\t</ul>\n\t\t</div>\n\t</div>"
+  },
+  "sitemap_model_hints": {
+    "message": "\t\t\t</div>\n\t\t\t<p>\n\t\t\t\t可将网站地图模型指定为一个json对象的列表. <br />\n\t\t\t\t\t样例: [ { \"entity\": \"name of entity\", \"field\": \"field in entity\",\n\t\t\t\t\t\"fieldName\": \"expected field id\" } ]\n\t\t\t</p>\n\t\t</div>"
+  },
+
+  "SelectorText": { "message": "Text" },
+  "ConstantValue": { "message": "Constant value" },
+  "SelectorInputValue": { "message": "Input value" },
+  "SelectorLink": { "message": "Link" },
+  "SelectorPopupLink": { "message": "Popup Link" },
+  "SelectorImage": { "message": "Image" },
+  "SelectorDocument": { "message": "Document" },
+  "SelectorTable": { "message": "Table" },
+  "SelectorElementAttribute": { "message": "Element attribute" },
+  "SelectorElementStyle": { "message": "Element style" },
+  "SelectorHTML": { "message": "HTML" },
+  "SelectorElement": { "message": "Element" },
+  "SelectorElementScroll": { "message": "Element scroll down" },
+  "SelectorElementClick": { "message": "Element click" },
+  "SelectorGroup": { "message": "Grouped" },
+  "SelectorPageURL": { "message": "Page URL" },
+
+  "sitemap_scrape_config_requestInterval": { "message": "请求间隔" },
+  "sitemap_scrape_config_requestIntervalRandomness": { "message": "随机请求间隔" },
+  "sitemap_scrape_config_pageLoadDelay": { "message": "页面加载延迟" },
+  "selector_edit_id": { "message": "选择器ID" },
+  "selector_edit_paginationLimit": { "message": "为空 = 无限制" },
+  "selector_edit_extractAttribute": { "message": "用来抓取数据的元素属性名" },
+  "selector_edit_value_placeholder": { "message": "插入文本内容" },
+  "selector_edit_extractStyle": { "message": "用来抓取数据的样式名" },
+  "selector_edit_regex": { "message": "Regex" },
+  "selector_edit_regexgroup": { "message": "0" },
+  "selector_edit_replaceText": { "message": "匹配文本" },
+  "selector_edit_replacementText": { "message": "替代文本" },
+  "selector_edit_textPrefix": { "message": "前缀" },
+  "selector_edit_textSuffix": { "message": "后缀" },
+  "selector_edit_delay_placeholder": { "message": "延迟" },
+  "selector_edit_replaceString": { "message": "替换文本" },
+  "sitemap_create__id": { "message": "站点名称" },
+  "sitemap_create_startUrls": { "message": "URL列表以逗号分隔" },
+  "sitemap_create_model": { "message": "SiteMapModel" },
+
+  "options_title": { "message": "Dac网页数据采集器" },
+  "options_page_title": { "message": "推荐使用云数据库方式存储爬取数据" },
+  "options_plugin_settings": { "message": "爬取数据存储设置" },
+  "options_storage_type": { "message": "存储类型" },
+  "options_local_storage": { "message": "本地存储" },
+  "options_memfiredb_storage": { "message": "MemFireDB" },
+  "options_rest_api_storage": { "message": "Rest API" },
+  "options_submit": { "message": "保存" },
+  "options_successfully_updated": { "message": "成功更新配置." },
+  "options_error_updating": { "message": "无法保存配置" },
+  "options_memfiredb_db_host": { "message": "数据库地址" },
+  "options_memfiredb_db_port": { "message": "数据库端口" },
+  "options_memfiredb_db_port_placeholder": { "message": "5433" },
+  "options_memfiredb_db_dbname": { "message": "数据库名称" },
+  "options_memfiredb_db_username": { "message": "数据库账户" },
+  "options_memfiredb_db_passwd": { "message": "数据库密码" },
+  "options_memfiredb_db_host_popup_title": { "message": "数据库地址" },
+  "options_memfiredb_db_host_popup_content": { "message": "可以从memfiredb获取免费可用的云数据库:" },
+  "options_rest_url": { "message": "RESTAPI URL地址"},
+  "options_rest_url_popup_title": { "message": "RESTAPI." },
+  "options_rest_url_popup_content": { "message": "SiteMap会自动与RESTAPI同步." },
+
+  "popup_title": { "message": "打开Developer tools即可使用Dac网页数据采集器" },
+  "popup_windows_linux": { "message": "Windows, Linux: Ctrl+Shift+I or F12" },
+  "popup_mac": { "message": "Mac: Cmd+Opt+I" },
+  "popup_any_oc": { "message": "其他操作系统: open Tools / Developer tools" },
+
+  "sitemapid_short_message": { "message": "Sitemap名称最少三个字符长" },
+  "sitemapid_invalid_char": {
+    "message": "仅允许小写的字母数字以及_, $, (, ), +, _,  / 等几个特殊字符，必须以字母开头."
+  },
+  "sitemapid_repeated_id": { "message": "Sitemap名已存在" },
+  "sitemapid_empty_message": { "message": "Sitemap名不可置空" },
+  "sitemapurl_empty_message": { "message": "根URLs不可置空" },
+  "sitemapurl_invalid_message": {
+    "message": "根URLs无效. 请使用 \",\"分隔多个URL."
+  },
+  "sitemapmodel_empty_message": { "message": "空数据可作为可用JSON配置" },
+  "sitemapjson_invalid_message": { "message": "JSON配置无效" },
+  "sitemapjson_empty_message": { "message": "Sitemap JSON不可置空" },
+  "selecting_file_error": { "message": "请选择一个文件!" },
+  "sitemap_valid_message": { "message": "可用sitemap" },
+  "selectorid_underscore": { "message": "选择器ID不可以_开头" },
+  "selector_empty_message": { "message": "选择器不可置空" },
+  "regex_regular_expressions_error_message": {
+    "message": "JavaScript不支持匹配空字符的正则表达式."
+  },
+  "regex_group_numeric_error_message": { "message": "Regex组必须为数值类型" },
+  "selector_click_empty_message": { "message": "点击选择器不可置空" },
+  "selector_header_empty_message": {
+    "message": "表头选择器不可置空"
+  },
+  "selector_data_row_empty_message": {
+    "message": "数据行选择器不可置空"
+  },
+  "delay_numeric_message": { "message": "延迟必须是数值类型" },
+  "pagination_limit_numeric_message": { "message": "分页限制配置不可滞空" },
+  "pagination_limit_small_message": { "message": "分页限制配置最少为1" },
+  "parent_selector_empty_message": { "message": "至少选择一个父选择器" },
+  "handle_recursive_error_message": { "message": "无法处理递归元素选择器" },
+  "some_parent_has_merge_into_list_error_message": {
+    "message": "如果某些父元素启用了合并到列表中，就不能添加类似链接的选择器"
+  },
+  "some_child_can_create_new_jobs_error_message": {
+    "message": "如果选择器有类似链接的子内容，则不能将元素合并到列表中"
+  },
+  "request_interval_empty_message": {
+    "message": "请求间隔配置不可置空"
+  },
+  "request_interval_numeric_message": { "message": "请求间隔配置必须为数值类型" },
+  "request_interval_short_message": {
+    "message": "请求间隔配置最少为2000ms"
+  },
+  "request_interval_randomness_empty_message": {
+    "message": "随机请求间隔配置不可置空"
+  },
+  "request_interval_randomness_numeric_message": {
+    "message": "随机请求间隔配置必须为数值类型"
+  },
+  "page_load_delay_empty_message": {
+    "message": "页面加载延迟配置不可置空"
+  },
+  "page_load_delay_numeric_message": { "message": "页面加载延迟配置必须为数值类型" },
+  "page_load_delay_short_message": {
+    "message": "页面加载延迟最少配置为500ms"
+  },
+  "model_json_error_message": {
+    "message": "JSON数组中的每个对象，都必须包含keys, field, field_name三个属性"
+  },
+  "model_json_array_message": { "message": "JSON必须数组" },
+  "model_empty_message": { "message": "空值也是可用JSON配置" },
+  "model_correct_message": { "message": "可用JSON配置" },
+
+  "content_selector_done_selecting_button": { "message": "生成选择器!" },
+  "content_selector_parent_selector_not_found": { "message": "父级选择器不存在!" },
+  "content_selector_parent_element_not_found": { "message": "父级元素不存在!" },
+  "content_selector_different_element_selection_title": {
+    "message": "启用不同类型元素选择器"
+  },
+  "content_selector_different_element_selection_error": {
+    "message": "默认不支持同时选择不同类型的元素. 如果确实需要当前元素被包含到选择对象中。 \n\t\t\t请启用当前选项，同时重新选择该元素。 \n\t\t\t通常没必要这么做。"
+  },
+  "content_selector_enable_key_events_checker": { "message": "启用键盘操作" },
+  "content_selector_select_child_key": { "message": "使用C键来选择子级元素" },
+  "content_selector_select_parent_key": { "message": "使用P键来选择父级元素" },
+  "content_selector_select_element_key": { "message": "使用S键来选择元素" },
+  "content_selector_enable_key_events_title": {
+    "message": "点击启用键盘操作"
+  },
+  "content_selector_enable_key_events_text": { "message": "启用键盘操作来选择元素" },
+  "selector_edit_refresh_button_title": {
+    "message": "如果你手动改变了选择器，请刷新"
+  },
+  "content_script_width": { "message": "130px !important" },
+  "extension_name": { "message": "Dac网页数据采集器" },
+  "extension_short_name": { "message": "Dac网页数据采集器" },
+  "extension_description": { "message": "从网页中提取数据的工具，支持存在Memfire云数据库或本地文件中" },
+  "browse_data_search": { "message": "在爬取结果中搜索" },
+  "parent_selector_self_citation": { "message": "选择器不能只指向自己" },
+  "sitemap_export_copy_text_button": { "message": "复制Sitemap到剪贴板" },
+  "modal_confirm_action_title_delete_selector": {
+    "message": "确认删除选择器<span id='modal-selector-id'></span>?"
+  },
+  "modal_confirm_action_title_delete_sitemap": {
+    "message": "确认删除SiteMap<span id='modal-sitemap-id'></span>?"
+  },
+  "modal_confirm_action_message_delete_selector": {
+    "message": "当前删除的选择器包含(<span id='modal-child-count'></span> obj)个子选择器, 还继续删除吗?"
+  },
+  "modal_confirm_action_submit_delete_selector": { "message": "确认" },
+  "modal_confirm_action_cancel_delete_selector": { "message": "取消" },
+  "modal_confirm_action_submit_delete_sitemap": { "message": "确认" },
+  "modal_confirm_action_cancel_delete_sitemap": { "message": "取消" },
+  "create_copy_sitemap": { "message": "复制" },
+  "modal_confirm_action_submit_copy_sitemap": { "message": "创建SiteMap" },
+  "modal_confirm_action_cancel_copy_sitemap": { "message": "取消" },
+  "modal_confirm_action_title_copy_sitemap": {
+    "message": "复制SiteMap： <span id='modal-sitemap-id'></span>?"
+  },
+  "modal_confirm_action_message_copy_sitemap": { "message": "SiteMap名称" },
+  "modal_confirm_action_input_copy_sitemap": { "message": "SiteMap名称" }
+}

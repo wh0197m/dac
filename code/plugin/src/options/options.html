@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title data-i18n="ptions_page_title"></title>
+		<link rel="stylesheet" href="options.css" />
+		<script src="options.js"></script>
+		<style>
+			.alert {
+				padding: 20px;
+				color: white;
+				display: none;
+				margin-bottom: 15px;
+			}
+
+			#error {
+				background-color: #f44336;
+			}
+
+			#success {
+				background-color: #4caf50;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Dac网页数据采集器</h1>
+			<p data-i18n="options_page_title"></p>
+			<br />
+			<form class="form-horizontal" id="storage_configuration">
+				<fieldset>
+					<legend data-i18n="options_plugin_settings"></legend>
+					<div class="form-group">
+						<label
+							for="storageType"
+							class="col-lg-2 control-label"
+							data-i18n="options_storage_type"
+						></label>
+						<div class="col-lg-10">
+							<select name="storageType" id="storageType" class="form-control">
+								<option value="local" data-i18n="options_local_storage"></option>
+								<option value="memfiredb" data-i18n="options_memfiredb_storage"></option>
+								<option value="rest" data-i18n="options_rest_api_storage"></option>
+							</select>
+						</div>
+					</div>
+
+					<div class="form-group memfiredb">
+						<label
+							for="host"
+							class="col-lg-2 control-label"
+							data-i18n="options_memfiredb_db_host"
+						></label>
+
+						<div class="col-lg-10">
+							<input
+								type="text"
+								class="form-control"
+								name="host"
+								id="host"
+							/>
+						</div>
+					</div>
+
+					<div class="form-group memfiredb">
+						<label
+								for="port"
+								class="col-lg-2 control-label"
+								data-i18n="options_memfiredb_db_port"
+						></label>
+
+						<div class="col-lg-10">
+							<input
+									type="text"
+									class="form-control"
+									name="port"
+									id="port"
+									placeholder="options_memfiredb_db_port_placeholder"
+							/>
+						</div>
+					</div>
+
+					<div class="form-group memfiredb">
+						<label
+								for="dbname"
+								class="col-lg-2 control-label"
+								data-i18n="options_memfiredb_db_dbname"
+						></label>
+
+						<div class="col-lg-10">
+							<input
+									type="text"
+									class="form-control"
+									name="dbname"
+									id="dbname"
+							/>
+						</div>
+					</div>
+
+					<div class="form-group memfiredb">
+						<label
+								for="username"
+								class="col-lg-2 control-label"
+								data-i18n="options_memfiredb_db_username"
+						></label>
+
+						<div class="col-lg-10">
+							<input
+									type="text"
+									class="form-control"
+									name="username"
+									id="username"
+							/>
+						</div>
+					</div>
+
+					<div class="form-group memfiredb">
+						<label
+								for="passwd"
+								class="col-lg-2 control-label"
+								data-i18n="options_memfiredb_db_passwd"
+						></label>
+
+						<div class="col-lg-10">
+							<input
+									type="password"
+									class="form-control"
+									name="passwd"
+									id="passwd"
+							/>
+						</div>
+					</div>
+
+					<div class="form-group rest">
+						<label
+							for="restUrl"
+							class="col-lg-2 control-label"
+							data-i18n="options_rest_url"
+						></label>
+
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="restUrl" name="restUrl" />
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-lg-offset-2 col-lg-10">
+							<div class="alert"></div>
+							<button
+								type="submit"
+								class="btn btn-default"
+								data-i18n="options_submit"
+							></button>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
