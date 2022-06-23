@@ -6,6 +6,6 @@
   "dependencies": {
     "@electron/remote": "1.0.4",
     "express": "^4.17.1",
-    "nocodb": "^0.9.18"
+    "nocodb": "^0.91.9"
   }
 }
